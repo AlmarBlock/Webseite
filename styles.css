@@ -1,0 +1,339 @@
+body{
+    background: rgb(122, 122, 122);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-size: 24px;
+}
+ul{
+    color: rgb(29, 150, 93);
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+li{
+    margin-right: 20px;
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    padding: 10px;
+}
+nav a:first-child{
+    margin-left: 0px;
+}
+nav a:hover{
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px;
+    color: black;
+}
+@media screen and (max-width: 470px) {
+    nav a{
+        text-decoration: none;
+        color: white;
+        font-size: 24px;
+        margin-left: 20px;
+        padding: 5px;
+    }
+    nav a:first-child{
+        margin-left: 0px;
+    }
+    nav a:hover{
+        background-color: white;
+        border-radius: 3px;
+        padding: 5px;
+        color: black;
+    }
+}
+a{
+    text-decoration: none;
+    font-size: 24px;
+}
+header{
+    background: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+
+.sozialmedia figcaption:hover{
+    background-color: white;
+    border-radius: 200px;
+    padding: 10px;
+    margin: 20px;
+    color: black;
+}
+.sozialmedia figcaption{
+    padding: 10px;
+    font-size: 24px;
+    margin: 20px;
+}
+.sozialmediamobile figcaption:hover{
+    background-color: white;
+    border-radius: 200px;
+    padding: 10px;
+    margin: 20px;
+    color: black;
+}
+.sozialmediamobile figcaption{
+    padding: 10px;
+    font-size: 24px;
+    margin: 20px;
+}
+.sozialmedia{
+display: flex;
+text-align: center;
+padding: 20px;
+flex-direction: row;
+}
+.sozialmedia figure{
+margin: auto;
+width: 200px;
+}
+.sozialmedia figure img{
+    margin: auto;
+}
+.sozialmedia figure a{
+    color: white;
+    text-decoration-color: white;
+}
+@media screen and (max-width: 720px) {
+         .sozialmedia{
+        display: none;
+        }
+        .sozialmediamobile{
+            text-align: center;
+            }
+        .sozialmediamobile figure{
+             margin: auto;
+              width: 200px;
+        }
+        .sozialmediamobile figure img{
+            margin: auto;
+        }
+        .sozialmediamobile figure a{
+            color: white;
+            text-decoration-color: white;
+        }
+        
+}@media screen and (min-width: 720px) {
+    .sozialmediamobile{
+        display: none;
+        }       
+}
+
+
+
+.banner{
+    background-image: url("images/banner.png");
+    height: 300px;
+    background-size:  100%;
+    background-position:  center;
+    padding: 0px;
+    margin: 0px;
+    text-shadow: 1;
+}
+
+ @media screen and (max-width: 800px) {
+    .banner{
+        background-image: url("images/banner.png");
+        height: 250px;
+        background-size:  100%;
+        background-position:  center;
+        padding: 0px;
+        margin: 0px;
+        text-shadow: 1;
+}
+ }
+@media screen and (max-width: 670px) {
+    .banner{
+        background-image: url("images/banner.png");
+        height: 170px;
+        background-size:  100%;
+        background-position:  center;
+        padding: 0px;
+        margin: 0px;
+        text-shadow: 1;
+}
+}
+
+
+.minecraft{
+    background-image: url("images/minecraft.jpg");
+    height: 300px;
+    background-size:  100%;
+    background-position:  center;
+    padding: 0px;
+    margin: 0px;
+    text-shadow: 1;
+}
+ @media screen and (max-width: 800px) {
+    .minecraft{
+        background-image: url("images/minecraft.jpg");
+        height: 250px;
+        background-size:  100%;
+        background-position:  center;
+        padding: 0px;
+        margin: 0px;
+        text-shadow: 1;
+}
+}
+@media screen and (max-width: 670px) {
+    .minecraft{
+        background-image: url("images/minecraft.jpg");
+        height: 160px;
+        background-size:  100%;
+        background-position:  center;
+        padding: 0px;
+        margin: 0px;
+        text-shadow: 1;
+}
+}
+
+
+.contact{
+    background-image: url("images/contact.png");
+    height: 300px;
+    background-size:  100%;
+    background-position:  center;
+    padding: 0px;
+    margin: 0px;
+    text-shadow: 1;
+}
+
+ @media screen and (max-width: 800px) {
+    .contact{
+        background-image: url("images/contact.png");
+        height: 250px;
+        background-size:  100%;
+        background-position:  center;
+        padding: 0px;
+        margin: 0px;
+        text-shadow: 1;
+}
+ }
+@media screen and (max-width: 670px) {
+    .contact{
+        background-image: url("images/contact.png");
+        height: 165px;
+        background-size:  100%;
+        background-position:  center;
+        padding: 0px;
+        margin: 0px;
+        text-shadow: 1;
+}
+}
+
+
+.games{
+    background-image: url("images/games.png");
+    height: 300px;
+    background-size:  100%;
+    background-position:  center;
+    padding: 0px;
+    margin: 0px;
+    text-shadow: 1;
+}
+
+ @media screen and (max-width: 800px) {
+    .games{
+        background-image: url("images/games.png");
+        height: 250px;
+        background-size:  100%;
+        background-position:  center;
+        padding: 0px;
+        margin: 0px;
+        text-shadow: 1;
+}
+ }
+@media screen and (max-width: 670px) {
+    .games{
+        background-image: url("images/games.png");
+        height: 165px;
+        background-size:  100%;
+        background-position:  center;
+        padding: 0px;
+        margin: 0px;
+        text-shadow: 1;
+}
+}
+
+
+.discord-banner{
+    background-image: url("images/discord-banner.png");
+    height: 300px;
+    background-size:  100%;
+    background-position:  center;
+    padding: 0px;
+    margin: 0px;
+    text-shadow: 1;
+}
+
+ @media screen and (max-width: 800px) {
+    .discord-banner{
+        background-image: url("images/discord-banner.png");
+        height: 250px;
+        background-size:  100%;
+        background-position:  center;
+        padding: 0px;
+        margin: 0px;
+        text-shadow: 1;
+}
+ }
+@media screen and (max-width: 670px) {
+    .discord-banner{
+        background-image: url("images/discord-banner.png");
+        height: 165px;
+        background-size:  100%;
+        background-position:  center;
+        padding: 0px;
+        margin: 0px;
+        text-shadow: 1;
+}
+}
+
+
+iframe{
+    height: 90%;
+    text-align: center;
+    width: 90%;
+    background-position: center;
+    display: flex;
+    margin: auto;
+}
+@media screen and (max-width: 1080){
+    iframe{
+        height: 50%;
+        text-align: center;
+        width: 90%;
+        background-position: center;
+        display: flex;
+        margin: auto;
+    }
+}
+h4{
+    text-align: center;
+}
+h5{
+    text-align: center;
+    margin: 1px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: gray;
+    padding-bottom: 1px;
+}
+.fist-description{
+    margin-bottom: 10px;
+}
+iframe .youtubevideo{
+    position: relative;
+    aspect-ratio: 1 / 1;
+
+}

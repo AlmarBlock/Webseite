@@ -3,6 +3,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="images/icons/webseite.png">
     <link rel="manifest" href="site.webmanifest">
+    <script src="script.js"></script>
     <style>
         #minesweeper{
             background-color: black;
@@ -13,6 +14,16 @@
             background-color: black;
             border: none;
             border-radius: 20px;
+        }
+        section button{
+          display: block;
+          background-color: black;
+          color: white;
+          border-radius: 20px;
+          padding: 10px;
+          margin: auto;
+          margin-top: 15px;
+          margin-bottom: 40px;
         }
     </style>
   </head>
@@ -36,13 +47,15 @@
         </ul>
      </section>
      <h1 style="text-align: center;"><strong><span style="font-size: 48px;"><span style="font-family: Arial, Helvetica, Helvetica Neue, sans-serif;">Games</span></span></strong></h1>
-     <h4 style="text-align: center;" class="fist-description">Level Jumper:</h4>
+     <h2 style="text-align: center;" class="fist-description">Level Jumper:</h4>
      <section>
-        <iframe src="https://almarblock.github.io/Webseite/Level_Jumper/index.html" alt="Level_Jumper" id="level_jumper"></iframe>
+        <iframe src="https://almarblock.github.io/Webseite/Level_Jumper/index.html" alt="Level_Jumper" id="level_jumper" style="aspect-ratio: 16 / 9; height: auto;"></iframe>
+        <button onclick="Level_Jumper()">Full Screen</button>
      </section>
-     <h4 style="text-align: center;" class="fist-description">Minesweeper:</h4>
+     <h2 style="text-align: center;" class="fist-description">Minesweeper:</h4>
      <section>
-        <iframe src="https://www.ronilan.com/bugsweeper/" alt="Minesweeper" id="minesweeper"></iframe>
+        <iframe src="https://www.ronilan.com/bugsweeper/" alt="Minesweeper" id="minesweeper" style="aspect-ratio: 16 / 9; height: auto;"></iframe>
+        <button onclick="Minesweeper()">Full Screen</button>
      </section>
      <footer>
       <h6> <br> Almar_Block <span style="margin-left: 80px; margin-right: 30px"></span> Mail: almarblock@gmail.com <br>  </h6>

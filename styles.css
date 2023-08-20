@@ -6,6 +6,7 @@ body{
     margin: 0px;
     text-decoration: none;
     font-size: 24px;
+    z-Index: 0px;
 }
 ul{
     color: rgb(29, 150, 93);
